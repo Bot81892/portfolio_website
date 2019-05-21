@@ -41,7 +41,26 @@
     </projects>
 
     <contact id="contact">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatem hic obcaecati totam facilis. Nihil ea reiciendis autem explicabo quas libero aperiam consequuntur, repellat praesentium, velit ipsum rerum. Corrupti similique ullam ipsum a eos quia nam? Consequatur aut quo cumque minus distinctio autem rem natus est? Quia excepturi nihil consequuntur tenetur ullam totam. Nihil quis pariatur soluta natus nam, sit illum rem facere nemo architecto ut hic provident culpa cumque dignissimos omnis alias nostrum eius qui sed placeat magnam atque tempore. Cumque mollitia asperiores dicta officiis corporis voluptate quisquam cupiditate sunt ipsa alias commodi deserunt vero harum a, ea esse.
+            <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                      </select></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+             </form>       
     </contact>
 
     <footer>
