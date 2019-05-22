@@ -9,13 +9,15 @@
 </head>
 <body>
     <header>
-        <logo-link>
-            <div class="logo"><img src="./main-logo.svg" alt="Logo/home button" a href="#main"></div>
-        </logo-link>
-            
-        <div class="about-link"><a href="#about">About</a></div>
-        <div class="projects-link"><a href="#projects">Projects</a></div>
-        <div class="contact-link"><a href="#contact">Contact</a></div>
+        <div class="logo">
+            <img src="./main-logo.svg" alt="Logo/home button" a href="#main">
+        </div>
+
+        <nav>
+            <div class="about-link"><a  href="#about-page">About</a></div>
+            <div class="projects-link"><a  href="#projects-page">Projects</a></div>
+            <div class="contact-link"><a  href="#contact-page">Contact</a></div>
+        </nav>
         
     </header>
 
@@ -26,17 +28,48 @@
     <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
     </main>
     
-    <about id="about">
-        <div class="profile-image"><img src="https://media.licdn.com/dms/image/C5103AQEOmKFdOncdhg/profile-displayphoto-shrink_100_100/0?e=1564012800&v=beta&t=PPiQDb2U4pZraapGXsV2nPtqVCEk6bHWoYJsKdbvf2M" alt="Profile image" style="width:60px;height:60px;"></div>
-        <div class="social"></div>
-        <div class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolores facilis sunt repudiandae molestias recusandae officia cum suscipit unde totam quis, voluptatum commodi excepturi at. Necessitatibus natus recusandae perferendis modi.</div>
+    <about id="about-page">
+        <div class="about-title">About</div>
+
+        <div class="about-group">
+            <div class="profile-image"><img src="https://media.licdn.com/dms/image/C5103AQEOmKFdOncdhg/profile-displayphoto-shrink_100_100/0?e=1564012800&v=beta&t=PPiQDb2U4pZraapGXsV2nPtqVCEk6bHWoYJsKdbvf2M" alt="Profile image" style="width: auto;height: auto; border-radius: 50%;"></div>
+        
+            <div class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolores facilis sunt repudiandae molestias recusandae officia cum suscipit unde totam quis, voluptatum commodi excepturi at. Necessitatibus natus recusandae perferendis modi.</div>
+        </div>
+
+        <div class="social">
+
+            <logo-link>
+                <div class="github-logo"><img src="./iconfinder_github-square-social-media_764894.svg" target="_blank" alt="Link to github" href="https://github.com/Bot81892" ></div>
+            </logo-link>
+
+            <logo-link>
+                <div class="linkin-logo"><img src="./iconfinder_11-linkedin_104493 (1).svg" target="_blank" alt="Link to linkedin" href="https://www.linkedin.com/feed/"></div>
+            </logo-link>
+            
+        </div>
+
+        
+
     </about>
 
-    <projects id="projects">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa autem deserunt nobis, reprehenderit facere cupiditate saepe maxime ducimus distinctio eveniet aliquid impedit fugiat optio magni esse animi minima! Accusantium a nemo qui ratione nobis ipsa sit corrupti laboriosam quo, fugiat rem tempora, quos odit ut, est voluptates iusto? Quidem, similique.
+    <projects id="projects-page">
+        <div class="gallery">
+            <a target="_blank" href="https://github.com/Bot81892/mood-board">
+                <img src="./Screen Shot 2019-05-22 at 9.20.55 AM.png" alt="mood board" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+                  
+        <div class="gallery">
+            <a target="_blank" href="https://github.com/Bot81892/terminal_app">
+                <img src="./Screen Shot 2019-05-22 at 9.30.07 AM.png" alt="ruby terminal application" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
     </projects>
 
-    <contact id="contact">
+    <contact id="contact-page">
             <form name="contact" method="POST" data-netlify="true">
                     <p>
                       <label>Your Name: <input type="text" name="name" /></label>   
@@ -58,9 +91,5 @@
                     </p>
              </form>       
     </contact>
-
-    <footer>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, hic eos ipsa, autem velit, suscipit impedit beatae et sint deleniti voluptates nobis!
-    </footer>
 </body>
 </html>

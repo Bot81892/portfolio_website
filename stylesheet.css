@@ -1,39 +1,42 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    
 }
+a:link, a:visited {
+    color: white;
+  }
+
 header {
-    display: grid;
-    grid-template-columns: 58% 12% 12% 12% 6%;
-    /* grid-template-rows: 50%; */
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    min-width: 100vw;
-    min-height: 60px;
-    max-height: 60px;
-    background-color: blanchedalmond;
+    width: 100vw;
+    height: auto;
+    background: red;
 
 }
 .logo {
+    width: 20%;
     display: flex;
-    align-items: center;
     padding: 10px;
-    min-width: 50vw;
-    max-width: 50vw;
     max-height: 60px;
     background-color: lawngreen;
 }
-/* nav {
+
+nav {
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    color: white;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    min-width: 50vw;
-    max-width: 50vw;
-    max-height: 60px;
-    padding-right: 50px;
-    background-color: mediumspringgreen;
-    color: aqua;
-} */
+    align-content: center;
+    margin-right: 5%;
+}
 .about-link {
     display: flex;
     justify-self: center;
@@ -63,36 +66,71 @@ main {
     min-width: 100vw;
     background-color: aliceblue;
 }
-#about {
-    display: grid;
-    grid-template-columns: 10% 30% 50% 10%;
-    grid-template-rows: auto;
-    min-height: 100vh;
-    min-width: 100vw;
-    background-color: antiquewhite;
-}
-#profile-image {
-    border-radius: 50%; 
-    grid-column-start: auto;
-    grid-column-start: 2;
-}
-#skills {
+#about-page {
     display: flex;
-    justify-content: center;
-    align-items: center
-    min-height: 50vh;
-    min-width: 100vw;
-    background-color: aquamarine
-}
-#projects {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
+    background: antiquewhite;
+}
+.about-title{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 23%; */
+    background: tomato;
+}
+.about-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: olivedrab;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#profile-image {
+    border-radius: 50%; 
+    grid-column-start: 2 / 3;
+    grid-row-start: 3 / 4;
+}
+.bio{ 
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    background: mediumpurple;
+   
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: yellow;
+}
+.github-logo {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+/* #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 100vw;
+    background-color: aquamarine
+} */
+#projects-page {
+    /* display: grid;
+    grid-template-columns: 10% 10% 45% 45% 10%;
+    grid-template-rows: 10% 10% 45% 45% 10; */
+    min-height: 100vh;
+    min-width: 100vw;
     background-color: lavenderblush;
 }
-#contact {
+#contact-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,3 +139,23 @@ main {
     min-width: 100vw;
     background-color: khaki;
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
