@@ -8,7 +8,7 @@ First portfolio written in HTML & CSS.
 | Melissa McAdam |
 
 ## Links
-* URL: flamboyant-cori-d65863.netlify.com
+* URL: https://app.netlify.com/sites/flamboyant-cori-d65863
 * GitHub: https://github.com/Bot81892
 
 ## Description
@@ -42,19 +42,19 @@ I started looking for images that I liked posessing bold designs and colors that
 
 After researching minimalistic designs, I decided to start with a blank page and focus on a clear and familiar layout and the design elements will be filled in as I coded. In the end I quite like the white page with pastel blue, I have found it to be like a canvas I can add to instead of scraping away paint to find something I believe to be visually appealing.
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/IMG_20190526_173547.jpg" alt="brain storming" width="300"/> 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/IMG_20190526_173555.jpg" alt="brainstorming" width="300"/> 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/IMG_20190526_173617.jpg" alt="brainstorming" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/IMG_20190526_173547.jpg?raw=true" alt="brain storming" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/IMG_20190526_173555.jpg?raw=true" alt="brainstorming" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/IMG_20190526_173617.jpg?raw=true" alt="brainstorming" width="300"/> 
 
 
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.51.15 PM.png" alt="Melissa McAdam" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.51.15%20PM.png?raw=true" alt="figma inspration" width="300"/> 
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.57.51 PM.png" alt="Melissa McAdam" width="300"/> 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.50.08 PM.png" alt="Melissa McAdam" width="300"/> 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.49.49 PM.png" alt="Melissa McAdam" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.57.51%20PM.png?raw=true" alt="trello" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.50.08%20PM.png?raw=true" alt="wire frame" width="300"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.49.49%20PM.png?raw=true" alt="figma concepts" width="300"/> 
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.50.36 PM.png" alt="Melissa McAdam" width="300">
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.50.36%20PM.png?raw=true" alt="logo" width="300">
 
 
 
@@ -62,7 +62,7 @@ After researching minimalistic designs, I decided to start with a blank page and
 originaly I was solely focused on a black design, with the illusion of professionalism, this was in a way a good plan, but seeing as the design was to be a representation of ourselves, the darkness in this idea didn't sit well with me, after looking at different images for inspiration, I found myself drawn towards lighter colors, more specifically pastels. With the minimalistic approach, I had already decided on using mostly black, white and one other, in this case light blue.
 
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.50.20 PM.png" alt="figma" width="100%"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.50.20%20PM.png?raw=true" alt="figma" width="100%"/> 
 
 
 ## Project Plan and Timeline
@@ -79,7 +79,7 @@ The hardest thing for me was my time management, i spent way too much time conce
 
 
 
-<img src="/Users/macpro/gentech/term1/html/website_project/portfolio_website/Screen Shot 2019-05-26 at 5.51.47 PM.png" alt="Melissa McAdam" width="100%"/> 
+<img src="https://github.com/Bot81892/portfolio_website/blob/master/Screen%20Shot%202019-05-26%20at%205.51.47%20PM.png?raw=true" alt="wire frame" width="100%"/> 
 
 
 ### Further Enhancements
